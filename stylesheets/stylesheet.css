@@ -242,14 +242,20 @@ i {
   top: 3px; }
 
 header {
-  height: 235px;
-  text-align: center;
-  background: url(../images/rftb.png) center center;
+  height: 248px;
+  text-align: left;
+  background: url(../images/camp.png) center center;
   transition: all 0.5s ease-in-out;
   -webkit-transition: all 0.5s ease-in-out;
   -ms-transition: all 0.5s ease-in-out;
   -moz-transition: all 0.5s ease-in-out;
-  -o-transition: all 0.5s ease-in-out; }
+  -o-transition: all 0.5s ease-in-out; 
+  margin-bottom: -138px;
+  z-index: 10;
+  position: relative;
+  padding-top: 32px;
+  margin-top: 40px;
+}
   header a {
     display: block;
     text-decoration: none;
