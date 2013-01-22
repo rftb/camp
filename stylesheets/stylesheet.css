@@ -242,9 +242,9 @@ i {
   top: 3px; }
 
 header {
-  height: 355px;
+  height: 235px;
   text-align: center;
-  background: url(../img/mountain-header.jpg) bottom center;
+  background: url(../images/rftb.png) center center;
   transition: all 0.5s ease-in-out;
   -webkit-transition: all 0.5s ease-in-out;
   -ms-transition: all 0.5s ease-in-out;
@@ -268,7 +268,7 @@ header {
     -o-transition: all 0.5s ease-in-out; }
   header h1 {
     margin: 0;
-    text-indent: -9000px; }
+     }
   header h2 {
     border-bottom: 1px dashed #ccc;
     padding-bottom: 15px; }
