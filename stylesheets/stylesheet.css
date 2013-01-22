@@ -245,11 +245,6 @@ header {
   height: 248px;
   text-align: left;
   background: url(../images/camp.png) center center no-repeat;
-  transition: all 0.5s ease-in-out;
-  -webkit-transition: all 0.5s ease-in-out;
-  -ms-transition: all 0.5s ease-in-out;
-  -moz-transition: all 0.5s ease-in-out;
-  -o-transition: all 0.5s ease-in-out; 
   margin-bottom: -138px;
   z-index: 10;
   position: relative;
@@ -265,11 +260,7 @@ header {
     background: url(../images/rftb.png) no-repeat;
     text-indent: -9000px;
     background-size: 100%;
-    transition: all 0.5s ease-in-out;
-    -webkit-transition: all 0.5s ease-in-out;
-    -ms-transition: all 0.5s ease-in-out;
-    -moz-transition: all 0.5s ease-in-out;
-    -o-transition: all 0.5s ease-in-out; }
+ }
   header h1 {
     margin: 0;
      }
