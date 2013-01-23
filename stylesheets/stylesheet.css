@@ -358,7 +358,8 @@ section {
     font-size: 1em;
   }
 
-
+hr{
+	  border-top: 1px #ddd dashed;}
   .inner ul {
     padding-left: 0; }
   .inner a {
