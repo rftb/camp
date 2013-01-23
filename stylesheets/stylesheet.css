@@ -253,10 +253,13 @@ header {
   position: relative;
   padding-top: 32px;
   margin-top: 40px;
-      @media (min-width: 640px) {
-        margin-bottom: -168px;
-      }
 }
+      @media (min-width: 640px) {
+        header {
+          margin-bottom: -168px;
+        }
+      }
+
   header a {
     display: block;
     float: right;
@@ -266,24 +269,31 @@ header {
     background: url(../images/rftb.png) no-repeat;
     text-indent: -9000px;
     background-size: 100%;
-    @media (min-width: 640px) {
+ }  
+ @media (min-width: 640px) {
+      header a {
       margin-top: -125px;
       width: 111px;
     }
- }
+    }
+
   header h1 {
     margin: 0;
     text-align: center;
     padding-top: 51px;
     color: white;
     text-shadow: 0px 0px 16px #000;
-      @media (min-width: 640px) {
-       text-align: left;
-        padding-top: 0px;
-        color: #111;
-        text-shadow: 0px 0px 0px #fff;
-      }
      }
+      @media (min-width: 640px) {
+        header h1 {
+          text-align: left;
+          padding-top: 0px;
+          color: #111;
+          text-shadow: 0px 0px 0px #fff;
+        }
+      }
+
+
   header h2 {
     border-bottom: 1px dashed #ccc;
     padding-bottom: 15px; }
