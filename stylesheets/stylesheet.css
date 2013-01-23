@@ -25,7 +25,10 @@ html, button, input, select, textarea {
 body {
   font-size: 1em;
   line-height: 1;
-  margin: 0; }
+  margin: 0; 
+  background: url(http://subtlepatterns.com/patterns/lightpaperfibers_@2X.png);
+  background-size: 200px;
+}
 
 p {
   padding: 7px 0 0; }
