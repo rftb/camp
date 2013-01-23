@@ -359,7 +359,7 @@ section {
   }
 
   hr{
-	  border-top: 1px #ddd dotted;
+	  border-top: 1px #000 dotted;
   }
 	  
   .inner ul {
