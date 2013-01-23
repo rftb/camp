@@ -33,7 +33,8 @@ p {
 h1, h2  {
   text-decoration: none;
   color: #266e9e;
-  font-family: Baskerville; 
+  font-family: Hoefler Text, Baskerville, Georgia; 
+  font-weight: 600;
   font-style: italic;
   /*
   font-family: HelveticaNeue-Light, "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
@@ -317,7 +318,7 @@ section {
   max-width: 760px; }
   .inner h1 {
     clear: both;
-    font-size: 2.5em; }
+    font-size: 3.5em; }
   .inner h2 {
     margin-top: 55px;
     padding-top: 25px;
