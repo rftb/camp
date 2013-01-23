@@ -26,8 +26,6 @@ body {
   font-size: 1em;
   line-height: 1;
   margin: 0; 
-  background: url(http://subtlepatterns.com/patterns/lightpaperfibers_@2X.png);
-  background-size: 200px;
 }
 
 p {
@@ -250,7 +248,7 @@ header {
   height: 248px;
   text-align: left;
   background: url(../images/camp.png) center center no-repeat;
-  margin-bottom: -138px;
+  margin-bottom: -168px;
   z-index: 10;
   position: relative;
   padding-top: 32px;
@@ -259,7 +257,7 @@ header {
   header a {
     display: block;
     float: right;
-    margin-top: -95px;
+    margin-top: -125px;
     width: 111px;
     height: 101px;
     background: url(../images/rftb.png) no-repeat;
