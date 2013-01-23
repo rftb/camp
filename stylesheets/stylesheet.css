@@ -45,6 +45,9 @@ h1, h2  {
   margin: 0;
   padding: 0; }
 
+.titles{
+	margin-top:140px;
+	margin-bottom:20px}
 
 h2, h3, h4, h5, h6 {
   color: #266e9e; }
