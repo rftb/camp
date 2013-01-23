@@ -319,7 +319,16 @@ section {
     clear: both;
     font-size: 2.5em; }
   .inner h2 {
-    margin-top: 45px; }
+    margin-top: 55px;
+    padding-top: 25px;
+    border-top: 1px #ddd dashed;
+  }
+
+  h5 {
+    font-size: 1em;
+  }
+
+
   .inner ul {
     padding-left: 0; }
   .inner a {
