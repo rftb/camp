@@ -33,8 +33,12 @@ p {
 h1, h2, h3, h4, h5, h6 {
   text-decoration: none;
   color: #266e9e;
+  font-family: Baskerville; 
+  font-style: italic;
+  /*
   font-family: HelveticaNeue-Light, "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   font-weight: 700;
+  */
   margin: 0;
   padding: 0; }
 
