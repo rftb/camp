@@ -358,8 +358,10 @@ section {
     font-size: 1em;
   }
 
-hr{
-	  border-top: 1px #ddd dashed;}
+  hr{
+	  border-top: 1px #ddd dotted;
+  }
+	  
   .inner ul {
     padding-left: 0; }
   .inner a {
