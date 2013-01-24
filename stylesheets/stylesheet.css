@@ -48,6 +48,10 @@ h1, h2  {
 .titles{
 	margin-top:140px;
 	margin-bottom:20px;
+}
+
+#main-content h1 {
+  font-style: normal;
   font-family: "Verlag", "Avenir", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; }
 
 }
