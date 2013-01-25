@@ -263,11 +263,10 @@ header {
   z-index: 10;
   position: relative;
   padding-top: 100px;
-  margin-top: 40px;
 }
       @media (min-width: 640px) {
         header {
-          margin-bottom: -168px;
+
         }
       }
 
@@ -283,7 +282,7 @@ header {
  }  
  @media (min-width: 640px) {
       header a {
-      margin-top: -125px;
+      margin-top: -105px;
       width: 111px;
     }
     }
