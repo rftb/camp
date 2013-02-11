@@ -124,6 +124,64 @@
         
         <a href="http://tinypng.org/">tinypng.org</a>
         
+        <h3>GZip & 404 (add to .htaccess file)</h3>
+         <pre><code>    
+         <IfModule mod_rewrite.c>
+Options +FollowSymLinks
+RewriteBase /
+RewriteEngine on
+
+</IfModule>
+
+ErrorDocument 404 /404.html
+
+#maintenance
+#Options +FollowSymlinks
+#RewriteCond %{REQUEST_URI} !/img/(.*)$
+#RewriteCond %{REQUEST_URI} !/css/(.*)$
+#RewriteCond %{REQUEST_URI} !/working.html$
+#RewriteCond %{REMOTE_HOST} !^24\.186\.219\.82
+#RewriteRule $ /working.html [R=302,L]
+
+
+<IfModule mod_deflate.c>
+	AddOutputFilterByType DEFLATE text/html
+	AddOutputFilterByType DEFLATE text/xml
+
+	AddOutputFilterByType DEFLATE image/x-icon
+
+	AddOutputFilterByType DEFLATE text/css
+	
+	AddOutputFilterByType DEFLATE text/js
+
+	AddOutputFilterByType DEFLATE text/javascript
+	AddOutputFilterByType DEFLATE application/javascript
+	AddOutputFilterByType DEFLATE application/x-javascript
+	AddOutputFilterByType DEFLATE text/x-js
+	AddOutputFilterByType DEFLATE text/ecmascript
+	AddOutputFilterByType DEFLATE application/ecmascript
+	AddOutputFilterByType DEFLATE text/vbscript
+	AddOutputFilterByType DEFLATE text/fluffscript
+
+	AddOutputFilterByType DEFLATE image/svg+xml
+	AddOutputFilterByType DEFLATE application/x-font-ttf
+	AddOutputFilterByType DEFLATE application/x-font
+	AddOutputFilterByType DEFLATE font/opentype
+	AddOutputFilterByType DEFLATE font/otf
+	AddOutputFilterByType DEFLATE font/ttf
+	AddOutputFilterByType DEFLATE application/x-font-truetype
+	AddOutputFilterByType DEFLATE application/x-font-opentype
+	AddOutputFilterByType DEFLATE application/vnd.ms-fontobject
+	AddOutputFilterByType DEFLATE application/vnd.oasis.opendocument.formula-template
+</IfModule>
+<FilesMatch "\.(ico|pdf|flv|jpg|jpeg|png|gif|js|css|swf|mp3)$">
+Header set Expires "15 Apr 2020 20:00:00 GMT"
+</FilesMatch>
+FileETag none
+
+
+          </code></pre>
+        
         </section>
 
         <footer>
