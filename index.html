@@ -90,7 +90,44 @@
               (function(a){function b(b,c){this.slid… 
           </code></pre>
 
-          
+           <h2>Mobile Testing</h2>
+
+          <h3>Dropdown menus for iOS (add the class "double" to the href with the dropdwon)</h3>
+         <code>
+         
+		
+		
+
+    $(document).ready(function() {
+     
+        $(document).ready(function() {
+            if(navigator.platform == "iPad") {
+                $(".double").each(function() { // have to use an `each` here - either a jQuery `each` or a `for(...)` loop
+                    var onClick; // this will be a function
+                    var firstClick = function() {
+                        onClick = secondClick;
+                        return false;
+                    };
+                    var secondClick = function() {
+                        onClick = firstClick;
+                        return true;
+                    };
+                    onClick = firstClick;
+                    $(this).click(function() {
+                        return onClick();
+                    });
+                });
+            }
+        });
+ 
+    });
+
+
+		
+		
+		
+		
+         </code>
 
 
           <h2>Forms</h2>
@@ -100,10 +137,7 @@
 
           <h1>Finalize</h1>
         
-            <h3>Speed Testing</h3>
-             
-            <a href="http://tools.pingdom.com/fpt/">pingdom</a>
-            
+           
             <h3>Test Propigation Using a Web Proxy</h3>
             
             <a href="http://anonymouse.org/anonwww.html">anonymouse.org</a>
@@ -119,6 +153,9 @@
              <h3>Add Geo Location Tags</h3>
              <a href="http://www.geo-tag.de/generator/en.html" target="_blank"> www.geo-tag.de </a>  
              
+             <h3>Speed Testing</h3>
+             <a href="http://tools.pingdom.com/fpt/">pingdom</a>
+            
              
          <h3>Add Lang Tag to HTML</h3>
          <pre><code>    
